@@ -58,8 +58,7 @@ conn: 	  AND
 %%
 int yyerror(char *s){
   printf("  --ERROR--  %s\n\n",s);
-  /*printf("\tERROR IN LINE %4d\n", yylval+1);
-  */
+
 	return *s;
 }
 int main() {
