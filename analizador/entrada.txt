@@ -1,0 +1,10 @@
+Correctos
+select col1 from tab1 where (ola = 1 and ola = 2)
+select col1 from tab1 where (ola = 1)
+delete from usuarios where  a = 1
+insert into cliente values (a)
+Incorrectos
+select from tab1 where (ola = 1 and ola = 2)
+select from tab1 where ola
+delete from proveedores where  a
+insert into cliente values (a = 1)
